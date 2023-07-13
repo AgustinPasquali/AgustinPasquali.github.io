@@ -1,56 +1,54 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ejercicio de IDs y clases CSS</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estiloIndex.css">
+    <title>Caracolito web</title>
+</head>
+<body>
     <header>
-      <hr>
-	    <h1>Los bandos de Star Wars</h1>
-      <p>(las originales, que eran la posta)</p>
-      <hr>
+        <figure class="header__logo">
+            <img src="./imgs/logo horizonta.jpg" alt="Logo caracolito al sol">
+        </figure>
+        <div class="header__titulo">
+            <h1>Caracolito al Sol</h1>
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li> <a href="./index.html">Home</a></li>
+                <li> <a href="">Contactame</a></li>
+                <li> <a href="https://www.instagram.com/caracolito.al.sol/" target="_blank">Instagram</a></li>
+                <li><a href="./galeria.html">Ir a la galeria</a> </li>
+            </ul>
+        </nav>
     </header>
-    <section>
-      <article class="ladoOscuro">
-        <h2>El imperio</h2>
-        <hr>
-        <ul>
-          <li>Líder: Darth Vader</li>
-          <img src="https://bucolic-sorbet-be5e07.netlify.app/darth-vader-daily-life-9.jpg" alt="" /><br><br>
-          <li>Tropa principal: Storm Trooper</li>
-          <img src="https://bucolic-sorbet-be5e07.netlify.app/Stormtrooper2.jpg" alt="" class="fotoHorizontal"/><br><br>
-          <li class="apoyo">Unidades de apoyo:
-            <ul>
-              <li>Caminante</li>
-              <img src="https://bucolic-sorbet-be5e07.netlify.app/walkers.jpg" alt="" /><br><br>
-              <li>Tie Fighter</li>
-              <img src="https://bucolic-sorbet-be5e07.netlify.app/tie.jpg" alt="" /><br><br>
-            </ul>
-          </li>
-        </ul>
-      </article>
-      <article class="ladoLuminoso">
-        <hr>
-          <h2>Los rebeldes</h2>
-        <hr>
-        <ul>
-          <li>Líder: Luke Skywalker</li>
-          <img src="https://bucolic-sorbet-be5e07.netlify.app/luke.jpg" alt="" class="fotoHorizontal"/><br><br>
-          <li>Tropa principal: Soldado cualunque</li>
-          <img src="https://bucolic-sorbet-be5e07.netlify.app/tropa.jpg" alt="" /><br><br>
-          <li class="apoyo">Unidades de apoyo:
-            <ul>
-              <li>Tanque</li>
-              <img src="https://bucolic-sorbet-be5e07.netlify.app/tanque.jpg" alt="" /><br><br>
-              <li>X-Wing</li>
-              <img src="https://bucolic-sorbet-be5e07.netlify.app/x-wing.jpg" alt="" /><br><br>
-            </ul>
-          </li>
-        </ul>
-      </article>
-    </section>
-  </body>
+    <main>
+        <section>
+            <article>
+                <div class="header-article">
+                    <h2 class="header-article__titulo">Facundo Perna Gutierrez</h2>
+                    <p class="header-article__subtitulo">"Facu Pegu"</p>
+                </div>
+                <figure class="foto-article">
+                    <img src="./imgs/Facu.jpeg" alt="Facundo Perna Gutierrez">
+                    <figcaption>Facu Pegu en <a href="https://www.instagram.com/feria.bondi/"> Feria Bondi.</a> </figcaption>
+                </figure>
+                <p class="cuerpo-article">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut consequatur voluptas accusamus nisi eligendi sunt, repellendus corporis expedita rem numquam, dolore voluptate quaerat laborum magni. Ea eum temporibus mollitia corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur unde debitis eligendi voluptatibus sapiente illum, harum facilis exercitationem, qui ut, fugiat quidem natus voluptates mollitia nemo voluptas enim dolorem?</p><p class="cuerpo-article">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut consequatur voluptas accusamus nisi eligendi sunt, repellendus corporis expedita rem numquam, dolore voluptate quaerat laborum magni. Ea eum temporibus mollitia corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur unde debitis eligendi voluptatibus sapiente illum, harum facilis exercitationem, qui ut, fugiat quidem natus voluptates mollitia nemo voluptas enim dolorem?</p><p class="cuerpo-article">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut consequatur voluptas accusamus nisi eligendi sunt, repellendus corporis expedita rem numquam, dolore voluptate quaerat laborum magni. Ea eum temporibus mollitia corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur unde debitis eligendi voluptatibus sapiente illum, harum facilis exercitationem, qui ut, fugiat quidem natus voluptates mollitia nemo voluptas enim dolorem?</p>
+            </article>
+
+        </section>
+        <aside>
+            <img src="./imgs/amor8.jpg" alt="amor8">
+            <img src="./imgs/abrazovegano33.jpg" alt="abrazovegano33">
+            <img src="./imgs/Facundo_1.jpg" alt="facundo1">
+            <img id="distinto" src="./imgs/Barbincho y Mochi posta.jpg" alt="Barbincho y Mochi original">
+        </aside>
+    </main>
+    <footer>
+        <h6>Todos los derechos reservados</h6>
+
+    </footer>   
+</body>
 </html>
